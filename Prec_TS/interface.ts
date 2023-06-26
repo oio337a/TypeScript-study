@@ -42,7 +42,7 @@ interface Add {
 	(num1:number, num2:number): number;
 }
 
-const add : Add = function(x, y) {
+const add1 : Add = function(x, y) {
 	return x + y;
 }
 
