@@ -1,4 +1,4 @@
-function add(num1:number, num2:number) {
+function add3(num1:number, num2:number) {
 	console.log(num1 + num2);
 }
 
@@ -13,7 +13,7 @@ add(1, 2); // 3
 // 사용자의 입장에서 어디서 잘못됬는지 찾기도 힘들고 시간이 많이 소모 된다.
 
 
-function showItems(arr:number[]) {
+function showItems2(arr:number[]) {
 	arr.forEach((item) => {
 		console.log(item);
 	});
